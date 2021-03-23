@@ -13,10 +13,12 @@ def get_fibonacci_last_digit_naive(n):
         fn_old = fn
         f2_old = f2
         f2 = fn_old
-        print(f"f1 ={f1}\n f2={f2}\n fn={fn}")
+#        print(f"f1 ={f1}\n f2={f2}\n fn={fn}")
         f1 = f2_old
         i += 1
     return fn
+
+
 
 if __name__ == '__main__':
     input = sys.stdin.read()
